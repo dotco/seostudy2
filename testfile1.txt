@@ -3,4 +3,4 @@ when visibile on server, the pull script will be functional.
 - testing push to yellowhibiscusflowers.org again
 - testing push to yellowhibiscusflowers.com
 - testing push to yellowhibiscusflowers.co
-- testing push to yellowhibiscusflowers.net
+- testing push to yellowhibiscusflowers.net. Changed a bunch of permissions.
