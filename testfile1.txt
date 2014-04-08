@@ -1,0 +1,2 @@
+this is sample content for the yellowhibiscus repository.
+when visibile on server, the pull script will be functional.
