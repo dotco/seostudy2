@@ -70,15 +70,18 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 <script>
-    var _gaq = [
-        ['_setAccount', 'UA-XXXXX-X'],
-        ['_trackPageview']
-    ];
     (function (d, t) {
+        var metaValues = { 'yellowhibiscusflowers.com':'6qMw2T6MxqfCF-dV_I69tP2O2c0SHgQjBRvXxGawM6E',
+         'yellowhibiscusflowers.co':'q1EiAjIq7oBS50hrQMZ6tyDSjl708Ub8qvZ6kLqgJPE', 
+         'yellowhibiscusflowers.org':'qCqpTAHruWGZ6zQf4OtYClAS5QiBbz85mSi_zk8XA9Q', 
+         'yellowhibiscusflowers.me':'jG4UboczMES2Ifk5ziET0sxNTcgY114E83yCdlVMOTc', 
+         'yellowhibiscusflowers.net':'JNWuXSirg51uNoftMqXQf93FR1ixGDnmO5xwluRwg94' };
+        var hostName = window.location.hostname;
         var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        g.src = '//www.google-analytics.com/ga.js';
+        g.name = 'google-site-verification';
+        g.content = metaValues[hostName];
         s.parentNode.insertBefore(g, s)
-    }(document, 'script'));
+    }(document, 'meta'));
 </script>
 </body>
 </html>
