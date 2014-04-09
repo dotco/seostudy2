@@ -1,0 +1,164 @@
+/* ==========================================================================
+    Yellow Hibiscus
+   ========================================================================== */
+html, body {
+    height: 100%;
+}
+
+html {
+    background: url("../img/pattern.png") fixed, url("../img/yellow_hibiscus.jpg") center center fixed no-repeat;
+    background-size: auto, cover;
+}
+
+body {
+    background: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Pacifico", serif;
+}
+
+.site-wrapper {
+    z-index: 10;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+.home .site-wrapper {
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.home .cover-container {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+.inner {
+    padding: 30px;
+}
+
+.mask {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+
+.main-content {
+    border-radius: 5px;
+    background: #fff;
+    text-align: left;
+    color: #333;
+    margin: 20px 15px 0;
+    padding: 15px 30px;
+}
+
+.masthead-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+    display: inline-block;
+}
+
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff; /* IE8 proofing */
+    text-transform: uppercase;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom: 2px solid yellow;
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom: 2px solid yellow;
+}
+
+@media (min-width: 768px) {
+    .masthead-brand {
+        float: left;
+    }
+
+    .masthead-nav {
+        float: right;
+    }
+}
+
+.cover {
+    padding: 0 20px;
+}
+
+.mastfoot {
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .home .masthead {
+        position: fixed;
+        top: 0;
+    }
+
+    .home .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .home .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 100%;
+    }
+
+    .main-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .home .cover-heading {
+        font-size: 63px;
+    }
+
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 700px;
+    }
+}
+
