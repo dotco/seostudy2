@@ -1,7 +1,7 @@
 /* ==========================================================================
     Yellow Hibiscus
    ========================================================================== */
-html, body {
+html, body, .home-wrap {
     height: 100%;
 }
 
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 100%;
 }
 
-.home .site-wrapper {
+.home-wrap .site-wrapper {
     height: 100%; /* For at least Firefox */
     min-height: 100%;
 }
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: center;
 }
 
-.home .cover-container {
+.home-wrap .cover-container {
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
 
@@ -124,17 +124,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (min-width: 768px) {
-    .home .masthead {
+    .home-wrap .masthead {
         position: fixed;
         top: 0;
     }
 
-    .home .mastfoot {
+    .home-wrap .mastfoot {
         position: fixed;
         bottom: 0;
     }
 
-    .home .site-wrapper-inner {
+    .home-wrap .site-wrapper-inner {
         vertical-align: middle;
     }
 
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (min-width: 992px) {
-    .home .cover-heading {
+    .home-wrap .cover-heading {
         font-size: 63px;
     }
 
